@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.screen{
+  max-width: 100%;
+  margin: 0px;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+body{
+  background: rgb(40, 120, 140)
+}
+
+.bed{
+  height: 800px;
+  margin-top: 900px;
+  margin-left: 1000px;
+}
+
+.star{
+  height: 100px;
+}
+
+.resizable{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*.dream:hover
+{
+  animation: expand 10s infinite linear;
+}
+
+@keyframes expand{
+  0%{
+    transform: scale(1);
+    display: none;
+  }
+  50%{
+    transform: scale(4);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
